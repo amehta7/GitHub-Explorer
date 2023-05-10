@@ -19,7 +19,7 @@ ReactFC.fcRoot(FusionCharts, Chart, FusionTheme)
 
 // STEP 2 - Chart Data
 
-const ChartComponent = ({ data }) => {
+const Pie3D = ({ data }) => {
   // STEP 3 - Creating the JSON object to store the chart configurations
   const chartConfigs = {
     type: 'pie3d', // The chart type
@@ -33,6 +33,10 @@ const ChartComponent = ({ data }) => {
         caption: 'Languages',
         //Set the theme for your chart
         theme: 'fusion',
+        //if we dont want to display decimal (points) then
+        //decimals: 0,
+        //size of pie chart
+        pieRadius: '35%',
       },
       // Chart Data
       data: data,
@@ -42,8 +46,8 @@ const ChartComponent = ({ data }) => {
   return <ReactFC {...chartConfigs} />
 }
 
-const Pie3D = () => {
-  return <div>chart</div>
-}
+// const Pie3D = () => {
+//   return <div>chart</div>
+// }
 
 export default Pie3D

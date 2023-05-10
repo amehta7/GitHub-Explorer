@@ -113,3 +113,17 @@ package.json
 ```
 
 [create-react-app Warning Fix Blog Post](https://community.netlify.com/t/how-to-fix-build-failures-with-create-react-app-in-production/17752)
+
+### Installation
+
+To run this project, install it locally using npm:
+
+$ npm install
+$ npm run dev
+
+## Set up your .env file with your values to run this project.
+
+.env vars :
+
+AUTH_DOMAIN
+CLIENT_ID
