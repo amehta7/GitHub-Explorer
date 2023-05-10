@@ -10,11 +10,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <Auth0Provider
-      domain={process.env.REACT_APP_AUTH_DOMAIN}
-      clientId={process.env.REACT_APP_AUTH_CLIENT_ID}
-      authorizationParams={{
-        redirect_uri: window.location.origin,
-      }}
+      domain='dev-ekwa2ifup74ocx8u.us.auth0.com'
+      clientId='KoMKzai7tBQfHrRbPlt9QjcuZ5GSNH2N'
+      redirectUri={window.location.origin}
+      cacheLocation='localstorage'
     >
       <GithubProvider>
         <App />
@@ -27,3 +26,6 @@ root.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister()
+
+// domain={process.env.AUTH_DOMAIN}
+//       clientId={process.env.AUTH_CLIENT_ID}
