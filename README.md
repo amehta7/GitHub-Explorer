@@ -1,6 +1,11 @@
-## Search_GithubUser
+## Search_GithubUser 
 
 In this project, you can search any github user and view user's info like repos, followers, etc.
+
+## Project URL :
+
+https://searchgithubusers-react.netlify.app/
+
 
 ### Installation
 
