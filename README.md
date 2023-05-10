@@ -1,4 +1,4 @@
-## Github Search User
+## Search_GithubUser
 
 In this project, you can search any github user and view user's info like repos, followers, etc.
 
